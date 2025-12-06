@@ -3,3 +3,4 @@ bmonth = int(input())
 byear = int(input())
 print(f"Your DOB is: {bday}/{bmonth}/{byear}")
 
+n = int(input("Enter a number: "))
