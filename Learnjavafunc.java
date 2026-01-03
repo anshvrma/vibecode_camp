@@ -199,6 +199,59 @@ public class Learnjavafunc {
     //     return rv;
     // }
 
+    // //anyBaseMultiplication
+    // public static void main(String[] args) {
+    //     Scanner scn = new Scanner(System.in);
+    //     int n = scn.nextInt();
+    //     int n2 = scn.nextInt();
+    //     int b = scn.nextInt();
+    //     int dn = anyBaseMulti(n,n2,b);
+    //     System.out.println(dn);
+    // }
+    // public static int getAddition(int n1, int n2, int b){
+    //     int rv = 0;
+    //     int dig = 0;
+    //     int ca = 0;
+    //     int p = 1;
+    //     while (n2 > 0 || ca > 0){
+    //         dig = (n1%10) + (n2%10) + ca;
+    //         n1 = n1/10;
+    //         n2 = n2/10;
+    //         rv += dig%b * p;
+    //         ca = dig/b;
+    //         p = p * 10;
+    //     }
+    //     return rv;
+    // }
+    // public static int singleDigMulti(int n, int n2, int b){
+    //     int rv = 0;
+    //     int c = 0;
+    //     int p = 1;
+    //     while(n > 0 || c > 0){
+    //         int dig1 = n%10;
+    //         n = n/10;
+    //         int multi = dig1 * n2 + c;
+    //         c = multi/b;
+    //         multi = multi % b;
+    //         rv = rv + multi * p;
+    //         p = p * 10; 
+    //     }
+    //     return rv;
+    // }
+    // public static int anyBaseMulti(int n, int n2, int b){
+    //     int rv = 0;
+    //     int p = 1;
+    //     while (n2 > 0){
+    //         int dig2 = n2%10;
+    //         n2 = n2/10;
+    //         int spv = singleDigMulti(n, dig2, b);
+    //         rv = getAddition(rv, spv * p, b);
+    //         p = p * 10;
+    //     }
+    //     return rv;
+    // }
+
+    
 
 
 
